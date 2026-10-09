@@ -1,0 +1,13 @@
+# Secrets and real values: never commit
+*.local.yaml
+*.env
+.env*
+!*.example
+secrets/
+kubeconfig*
+*.pem
+*.key
+*.db
+*.xlsx
+__pycache__/
+.venv/
